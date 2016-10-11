@@ -7,7 +7,7 @@
 I repository rappresentano il punto di riferimento per gli sviluppatori interessati ad utilizzare i servizi messi a disposizione da Directa [per i propri clienti] tramite la piattaforma <a href="http://www.directa.it/pub2/it/darwin/intro.html">Darwin</a>. I *progetti* proposti sono:
 
 - <a href="https://github.com/directa-it/darwinCommandLine">*Darwin CommandLine*</a>: e' una versione di Darwin senza interfaccia grafica che permette di utilizzare le API (dati storici, prezzi e scambi in tempo reale, funzioni per il trading) fornite da Directa
-- *<a href="">Plugin Excel*</a>: e' la libreria che permette di utilizzare le API di Darwin in Excel
+- *<a href="https://github.com/directa-it/pluginExcel">Plugin Excel*</a>: e' la libreria che permette di utilizzare le API di Darwin in Excel
 - <a href="https://github.com/directa-it/pluginMulticharts">*Plugin Multichart*</a>: e' il plugin che permette di utilizzare Darwin (Directa) come flusso dati e come broker per Multichart
 
 Ad ogni *progetto* corrisponde un repository che conterra' sempre l'ultima versione aggiornata (degli eseguibili) del software messo a disposizione da Directa. Oltre ad offrire un sistema di controllo di versione, l'obiettivo e' quello di facilitare la segnalazione di eventuali bug e seguirne la relativa correzione nei vari rilasci di versione, creare un punto per la discussione di eventuali proposte di miglioramenti e/o integrazioni, (e raccogliere esempi o ...)
