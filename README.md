@@ -1,10 +1,10 @@
 **DIRECTA SIM**
 
-<a href="http://www.directa.it/">Directa</a> è una Società di Intermediazione Mobiliare costituita a Torino nel 1995, con l'obiettivo di permettere agli investitori privati di comprare e vendere azioni per via telematica, direttamente dal loro PC.
+<a href="http://www.directa.it/">Directa Sim</a> è una Società di Intermediazione Mobiliare costituita a Torino nel 1995, con l'obiettivo di permettere agli investitori privati di comprare e vendere azioni per via telematica, direttamente dal loro PC.
 
 **I REPOSITORY DEI PROGETTI** 
 
-I repository rappresentano il punto di riferimento per gli sviluppatori interessati ad utilizzare i servizi messi a disposizione da Directa [per i propri clienti] tramite la piattaforma <a href="http://www.directa.it/pub2/it/darwin/intro.html">Darwin</a>. I *progetti* proposti sono:
+I repository rappresentano il punto di riferimento per gli sviluppatori interessati ad utilizzare i servizi messi a disposizione da Directa [per i propri clienti] tramite la piattaforma <a href="http://www.directa.it/pub2/it/darwin/intro.html">Traing Online Darwin</a>. I *progetti* proposti sono:
 
 - <a href="https://github.com/directa-it/darwinCommandLine">*Darwin CommandLine*</a>: e' una versione di Darwin senza interfaccia grafica che permette di utilizzare le API (dati storici, prezzi e scambi in tempo reale, funzioni per il trading) fornite da Directa
 - *<a href="https://github.com/directa-it/pluginExcel">Plugin Excel*</a>: e' la libreria che permette di utilizzare le API di Darwin in Excel
@@ -42,7 +42,7 @@ Per segnalare eventuali bug si suggerisce di aprire una segnalazione nel Tab Iss
 
 **DISCLAIMER**
 
-Per l'utilizzo delle API e dei relativi plugin è necessario essere in possesso/ titolari di un conto presso Directa e procedere alla sottoscrizione di un disclaimer disponibile a partire dalla pagina personale su directratrading.com,  cliccando su *Info -> punto 5a   (ABILITAZIONI e VARIAZIONI CONTRATTUALI / Abilitazioni) -> punto 3i  (API)*.
+Per l'utilizzo delle API e dei relativi plugin è necessario essere in possesso/ titolari di un conto presso Directa e procedere alla sottoscrizione di un disclaimer disponibile a partire dalla pagina personale su http://www1.directatrading.com,  cliccando su *Info -> punto 5a   (ABILITAZIONI e VARIAZIONI CONTRATTUALI / Abilitazioni) -> punto 3i  (API)*.
 
 **LIBRERIE TERZE PARTI**
 
@@ -65,7 +65,7 @@ Sito ufficiale Directa: http://directa.it
 Descrizione servizio API: http://www.directa.it/pub2/it/darwin/api.html
 
 
-English Version:
+
 
 **DIRECTA SIM**
 
