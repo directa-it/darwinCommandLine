@@ -63,3 +63,79 @@ The Apache Software Foundation (http://www.apache.org/).
 Sito ufficiale Directa: http://directa.it
 
 Descrizione servizio API: http://www.directa.it/pub2/it/darwin/api.html
+
+
+English Version:
+
+**DIRECTA SIM**
+
+<a href="http://www.directa.it/">Directa SIM</a> is a financial brokerage company founded in Turin, Italy, in 1995. With the aim of allowing private investors to buy and sell financial instruments electronically, directly from the ease of their computers, 
+
+ **THE PROJECTS' REPOSITORY ** 
+ 
+ The repositories represent a reference point for developers interested in offering the services provided by Directa [ to their customers] through the platform] <a href="http://www.directa.it/pub2/it/darwin/intro.html">Darwin  Online Trading Platfrom</a>. The proposed *projects* are:
+
+- <a href="https://github.com/directa-it/darwinCommandLine">*Darwin CommandLine*</a>: is a Darwin version with no graphical interface, which allows the use of the APIs (historical data, real-time pricing and exchanges, and trading functions) all provided by Directa
+-  *<a href="https://github.com/directa-it/pluginExcel">Plugin Excel*</a>: This is the library that allows the use of Darwin's API in Microsoft Excel
+- <a href="https://github.com/directa-it/pluginMulticharts">*Plugin Multichart*</a>: is the plugin that allows the use of Directa's Darwin trading platform for the data flow, and MULTICHART as the broker 
+
+For each *project* there is a matching repository that will contain always the latest updated version (the executables) of the software provided by Directa. As well as offering a version control system, the aim is to make easier any eventual bug reporting, to be followed up by bug-fixing patch releases, in various version releases, and also to create a discussion point of any possible user suggestions for improvements and / or additions, (and to collect examples or ...ect)
+
+**DIRECTA'S API**
+
+Directa APIs make use of listening sockets on the local machine and so make available three types of data flows:
+- * Data Feed *: a dataflow to apply for a security ; It allows you to receive the executed orders / bid-ask / book
+- 5 Book levels for the selected security
+- *Trading*: data flow to carry out trading operations
+- *Historical Data Requests*: a dataflow to request various combinations, in terms of time frames, and the historical data periods (candles, tick by tick data)
+
+
+The API's functionality depends on the start-up of 
+
+<a href="http://www.directa.it/pub2/it/darwin/intro.html">Darwin Trading Platform </a> with an account that is enabled for that  service.
+
+**PREREQUISITES**
+
+Darwin 2.0 is developed in Java and requires the presence on the local machine of an updated version of the Java JRE & JDK.
+ 
+**USER GUIDE AND DOCUMENTATION** 
+
+Each repository is related to a single project [in order to simplify the process of bug reporting as well ass bug fixing or the discussion of user proposals / improvements related to the project in question]. documentation and examples can be found on the following links: 
+
+- <a href="https://directa-it.github.io/documentation/#PluginDirecta"> Darwin CommandLine</a> 
+
+- <a href="https://directa-it.github.io/documentation/excel.html"> Plugin Excel</a> 
+
+- <a href="https://directa-it.github.io/documentation/#InfoMC"> Plugin Multichart</a> 
+
+
+
+**BUG REPORTING**
+
+To report eventual bugs, we suggest you to open a message in the Issues Tab of the repository for the concerned project.
+
+
+**DISCLAIMER**
+
+In order to use the APIs and the related plugins you must own an account at Directa Sim, and also proceed to sign the disclaimer that is reachable starting from the  personal home page of your trading account at http://www1.directatrading.com, by going to > *Info -> 5.ADDITIONAL ACTIVATIONS AND VARIATIONS > Additional Activations > More > i.API
+
+
+**THIRD PARTY LIBRARIES**
+
+third-party libraries included in the projects are:
+
+- <a href="https://github.com/google/gson">GSON</a>
+- <a href="https://commons.apache.org/">Apache Commons</a>
+These libraries are released under the  <a href="https://github.com/directa-it/documentation/blob/master/ApacheLICENSE-2.0.txt">Apache 2.0 License</a>. 
+
+```
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+```
+
+**OFFICIAL WEBSITE**
+
+Directa sim's Official website: http://www.directa.it
+
+API service description at : http://www.directa.it/pub2/it/darwin/api.html
+
