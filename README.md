@@ -69,11 +69,11 @@ Descrizione servizio API: http://www.directa.it/pub2/it/darwin/api.html
 
 **DIRECTA SIM**
 
-<a href="http://www.directa.it/">Directa SIM</a> is a financial brokerage company founded in Turin, Italy, in 1995. With the aim of allowing private investors to buy and sell financial instruments electronically, directly from the ease of their computers, 
+<a href="http://www.directa.com/en/">Directa SIM</a> is a financial brokerage company founded in Turin, Italy, in 1995. With the aim of allowing private investors to buy and sell financial instruments electronically, directly from the ease of their computers, 
 
  **THE PROJECTS' REPOSITORY ** 
  
- The repositories represent a reference point for developers interested in offering the services provided by Directa [ to their customers] through the platform] <a href="http://www.directa.it/pub2/it/darwin/intro.html">Darwin  Online Trading Platfrom</a>. The proposed *projects* are:
+ The repositories represent a reference point for developers interested in offering the services provided by Directa [ to their customers] through the platform] <a href="http://www.directa.it/pub2/en/darwin/intro.html">Darwin  Online Trading Platfrom</a>. The proposed *projects* are:
 
 - <a href="https://github.com/directa-it/darwinCommandLine">*Darwin CommandLine*</a>: is a Darwin version with no graphical interface, which allows the use of the APIs (historical data, real-time pricing and exchanges, and trading functions) all provided by Directa
 -  *<a href="https://github.com/directa-it/pluginExcel">Plugin Excel*</a>: This is the library that allows the use of Darwin's API in Microsoft Excel
@@ -84,15 +84,14 @@ For each *project* there is a matching repository that will contain always the l
 **DIRECTA'S API**
 
 Directa APIs make use of listening sockets on the local machine and so make available three types of data flows:
-- * Data Feed *: a dataflow to apply for a security ; It allows you to receive the executed orders / bid-ask / book
-- 5 Book levels for the selected security
+- *Data Feed*: a dataflow to apply for a security ; It allows you to receive the executed orders / bid-ask / book5 Book levels for the selected security
 - *Trading*: data flow to carry out trading operations
 - *Historical Data Requests*: a dataflow to request various combinations, in terms of time frames, and the historical data periods (candles, tick by tick data)
 
 
 The API's functionality depends on the start-up of 
 
-<a href="http://www.directa.it/pub2/it/darwin/intro.html">Darwin Trading Platform </a> with an account that is enabled for that  service.
+<a href="http://www.directa.it/pub2/en/darwin/intro.html">Darwin Trading Platform </a> with an account that is enabled for that  service.
 
 **PREREQUISITES**
 
@@ -135,7 +134,7 @@ The Apache Software Foundation (http://www.apache.org/).
 
 **OFFICIAL WEBSITE**
 
-Directa sim's Official website: http://www.directa.it
+Directa sim's Official website: http://www.directa.com/en/
 
-API service description at : http://www.directa.it/pub2/it/darwin/api.html
+API service description at : http://www.directa.it/pub2/en/darwin/api.html
 
