@@ -1,0 +1,36 @@
+Gentile cliente ed utilizzatore di DarwinCommandLine,
+
+ci siamo resi conto che molto spesso i nostri utilizzatori DCL hanno delle versioni non recenti
+del .jar messo a disposizione.
+Abbiamo pensato quindi di creare una sorta di "cappello" denominato DCL.jar che permette un 
+avvio più veloce della DCL e soprattuto di mantenere sempre le risorse aggiornata all'ultima versione
+disponibile.
+
+Per utilizzare il nuovo DCL.jar serviranno pochissimi passaggi:
+1) Scaricare il file DCL.jar
+2)Lanciarlo da riga di comando così: java -jar DCL.jar codiceUtente password
+3)Una volta lanciato il DCL.jar si occuperà ogni volta di aggiornare le risorse necessarie che verranno
+  salvate nella propria cartella Utente sotto la cartella .directa.
+
+Il file DCL.jar può essere lanciato anche sull'ambiente di test, basterà inserire nei parametri -test.
+Il DCL.jar è stato già pensato per Multicharts, quindi non è necessario specificare nulla nei parametri.
+Se vi è necessità di non mettere la password in chiaro come parametro, il DCL.jar può essere fatto partire
+da un file sulla postazione, ovvero l'unico parametro sarà il percorso del file dove sarà necessario scrivere le credenziali,
+in questo modo: codiceUtente;password
+
+Consigliamo per tanto di eliminare il vecchio Engine.jar e utilizzare il DCL.jar così per essere
+sempre aggiornati alle nuove modifiche.
+Da poco la DCL è utilizzabile anche direttamente da dGO, ovviamente in questo caso non è necessario
+fare tutti i passaggi descritti in precedenza ma solamente installare dGO sulla propria postazione.
+
+Per qualsiasi dubbio chiarimento o problema non esitare a contattarci al nostro indirizzo mail dedicato:
+api@directa.it 
+
+Cordiali saluti
+
+Servizio API
+Directa SIM S.p.A.
+-------------------------------------------
+Via Buozzi, 5 - 10121 Torino - Italy
+Tel: +39 011 530101  Fax: +39 011 530532
+-------------------------------------------
